@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">  
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <!-- CSS STYLE -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- TITLE -->
+        <title>CRUDS</title>
+    </head>
+    <body>
+
+        <div class="layOut container py-2 my-3">
+            <h1 class="text-center my-4 text-white">CRUDS System</h1>
+        <div class="my-5">
+            <div class="row">
+                <form action="">
+                    <input type="text" name="" class="form-control my-4" id="productName" placeholder="Profuct Name">
+                    <input type="text" name="" class="form-control my-4" id="productCategory" placeholder="Profuct Category">
+                    <div class="row align-items-center my-4" id="priceContainer">
+                        <div class="col">
+                            <input type="number" name="" class="form-control" id="productPrice" placeholder="Price">
+                        </div>
+                        <div class="col">
+                            <input type="number" name="" class="form-control" id="productTaxes" placeholder="Taxes">
+                        </div>
+                        <div class="col">
+                            <input type="number" name="" class="form-control" id="productADS" placeholder="ADS">
+                        </div>
+                        <div class="col">
+                            <input type="number" name="" class="form-control" id="productDiscount" placeholder="Discount">
+                        </div>
+                        <div class="col">
+                            <p id="totalPrice" class="text-white bg-danger p-2 rounded-pill m-0">totalPrice: </p>
+                        </div>
+                    </div>
+                    <input type="number" name="" class="form-control my-4" id="productsCount" placeholder="Profucts Count">
+
+                    <button id="create" class="btn btn-lg btn-primary">Create</button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="container my-5">
+            <label for="" class="text-white">
+                <input type="date" name="" id="date">
+                filter the products by date
+            </label>
+            <table class="table text-center  text-white" id="table">
+                <thead class="">
+                    <td>ID</td>
+                    <td>Product Name</td>
+                    <td>Product Total Price</td>
+                    <td>Product Category</td>
+                    <td>Update</td>
+                    <td>Delet</td>
+                </thead>
+                
+                <tbody id="tbody">
+                    
+                </tbody>
+            </table>
+        </div>
+
+
+
+
+        
+        
+        </div>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
